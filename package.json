@@ -1,0 +1,23 @@
+{
+  "name": "eventloop-monitor",
+  "description": "Monitor Eventlopp Usage",
+  "keywords": [],
+  "version": "0.1.0",
+  "author": "Arunoda Susiripala <arunoda@kadira.io>",
+  "license": "MIT",
+  "homepage": "https://github.com/kadirahq/node-eventloop-monitor",
+  "bugs": "https://github.com/kadirahq/node-eventloop-monitor/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kadirahq/node-eventloop-monitor.git"
+  },
+  "private": false,
+  "dependencies": {
+    "performance-now": "0.2.x"
+  },
+  "devDependencies": {
+
+  },
+  "optionalDependencies": {},
+  "main": "lib/index.js"
+}
