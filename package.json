@@ -2,7 +2,7 @@
   "name": "evloop-monitor",
   "description": "Monitor Eventloop Usage",
   "keywords": [],
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Arunoda Susiripala <arunoda@kadira.io>",
   "license": "MIT",
   "homepage": "https://github.com/kadirahq/node-eventloop-monitor",
