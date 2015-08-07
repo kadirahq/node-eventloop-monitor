@@ -8,6 +8,8 @@ suite('eventloop-monitor', function() {
     setTimeout(function() {
       var status = monitor.status();
       assert.equal(status.pctBlock > 0, true);
+      assert.equal(status.totalLag > 0, true);
+      assert.equal(status.elapsedTime > 0, true);
       monitor.stop();
       done();
     }, 300);  
