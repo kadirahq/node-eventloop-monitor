@@ -16,8 +16,11 @@
     "performance-now": "0.2.x"
   },
   "devDependencies": {
-
+    "mocha": "2.2.x"
   },
   "optionalDependencies": {},
-  "main": "lib/index.js"
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  }
 }
